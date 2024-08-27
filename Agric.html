@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrivista Farms</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">Agrivista Farms</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <a href="#" class="login-btn">Login</a>
+                <a href="#" class="signup-btn">Sign Up</a>
+            </div>
+            <div class="mobile-menu-icon">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </nav>
+        <div class="hero-section">
+            <div class="hero-content">
+                <h1>The Role of Technology in Revolutionizing Agriculture</h1>
+                <p>Leveraging cutting-edge technology to enhance productivity and sustainability.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn-primary">Get Started</a>
+                    <a href="#" class="btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about">
+        <h2>Our Passion for Agriculture</h2>
+        <p>Nurturing Growth and Sustaining the Future since 1976.</p>
+        <div class="about-image">
+            <img src="https://media.istockphoto.com/id/1901542091/photo/tractor-spraying-soybean-crops-field.jpg?b=1&s=612x612&w=0&k=20&c=3_YZfRR7NzO8Vry8F80CXaqUnYE-RRQcEAMrvcJkP8w="
+                alt="Agricultural field">
+        </div>
+        <a href="#" class="btn-primary">Get Started</a>
+    </section>
+
+    <section class="services">
+        <h2>Our Service</h2>
+        <div class="service-cards">
+            <div class="service-card">Blog and Article Writing</div>
+            <div class="service-card">Website Content</div>
+            <div class="service-card">Content Strategy and Consulting</div>
+            <div class="service-card">Social Media Management</div>
+        </div>
+    </section>
+
+    <section class="products">
+        <h2>Our Featured Product</h2>
+        <div class="product-cards">
+            <div class="product-card">
+                <img src="https://media.istockphoto.com/id/673162168/photo/green-cabbage-isolated-on-white.jpg?b=1&s=612x612&w=0&k=20&c=D18qaU48dFgRfwgQs6BqBZacGq7J7qVy6g5gJGS0zHY="
+                    alt="Cabbage">
+                <p>Cabbage</p>
+            </div>
+            <div class="product-card">
+                <img src="https://media.istockphoto.com/id/184279619/photo/pumpkin.jpg?b=1&s=612x612&w=0&k=20&c=HoSanIuqy2CbmNoRlymXmx-vO2GofvD7c2DOyrMbaK4="
+                    alt="Pumpkin">
+                <p>Pumpkin</p>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/59997/wheat-spike-wheat-field-cereals-59997.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="Wheat">
+                <p>Wheat</p>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/4110251/pexels-photo-4110251.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="Rice">
+                <p>Rice</p>
+            </div>
+        </div>
+        <a href="#" class="btn-secondary">See all products</a>
+    </section>
+
+
+    <section class="sustainability">
+        <h2>Sustainable Farming Meets Technology</h2>
+        <p>Building a Greener Future</p>
+        <a href="#" class="btn-primary">Learn More</a>
+        <a href="#" class="btn-secondary">Contact Us</a>
+    </section>
+
+    <section class="benefits">
+        <h2>The Benefits of Choosing Our Expertise</h2>
+        <ul>
+            <li>15+ Years of Experience</li>
+            <li>40+ Products</li>
+            <li>2,458+ Satisfied Clients</li>
+            <li>20 Local Team Members</li>
+        </ul>
+    </section>
+
+    <section class="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial-cards">
+            <div class="testimonial-card">
+                <p>"Agrivista Farms has revolutionized our farm operations. Their expertise in sustainable practices is
+                    unmatched."</p>
+                <p>- Madeline Williamson</p>
+            </div>
+            <!-- Add more testimonials as needed -->
+        </div>
+    </section>
+
+    <section class="blog">
+        <h2>Our Blog</h2>
+        <div class="blog-cards">
+            <div class="blog-card">Innovations for a Greener Future</div>
+            <div class="blog-card">The Power of Agricultural Analytics</div>
+            <div class="blog-card">Cultivating Sustainable and Resilient Farms</div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2024 Agrivista Farms. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        // Add some interactivity to the mobile menu
+        const mobileMenuIcon = document.querySelector('.mobile-menu-icon');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileMenuIcon.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
