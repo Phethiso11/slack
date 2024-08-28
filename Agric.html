@@ -279,17 +279,20 @@
         }
 
         /* Sustainability Section */
-        .sustainability {
-            padding: 4rem 2rem;
-            text-align: center;
-            background-image: url("your-sustainability-image-path.jpg");
+        .sustainable-farming {
+            background-image: url('path-to-your-farming-image.jpg');
+            /* Replace this with your image path */
             background-size: cover;
             background-position: center;
+            background-repeat: no-repeat;
+            padding: 80px 20px;
+            text-align: center;
             color: white;
             position: relative;
+            margin-top: 50px;
         }
 
-        .sustainability::before {
+        .sustainable-farming::before {
             content: "";
             position: absolute;
             top: 0;
@@ -297,30 +300,42 @@
             right: 0;
             bottom: 0;
             background-color: rgba(0, 0, 0, 0.5);
-            z-index: -1;
+            /* Dark overlay to improve text readability */
+            z-index: 1;
         }
 
-        .sustainability h2 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
+        .farming-content {
+            position: relative;
+            z-index: 2;
+            max-width: 700px;
+            margin: 0 auto;
         }
 
-        .sustainability p {
-            font-size: 1.2rem;
-            margin-bottom: 2rem;
+        .sustainable-farming h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
         }
 
-        .sustainability a {
-            margin: 0.5rem;
-            padding: 1rem 2rem;
+        .sustainable-farming p {
+            font-size: 1.1rem;
+            margin-bottom: 25px;
+        }
+
+        .farming-buttons a {
+            margin: 0 10px;
+            padding: 10px 20px;
             border-radius: 5px;
             text-decoration: none;
-            display: inline-block;
-            transition: transform 0.3s, background-color 0.3s, color 0.3s;
+            color: white;
+            font-weight: bold;
         }
 
-        .sustainability a:hover {
-            transform: scale(1.05);
+        .btn-primary {
+            background-color: #28a745;
+        }
+
+        .btn-secondary {
+            background-color: #007bff;
         }
 
         /* Benefits Section */
@@ -582,12 +597,17 @@
     </section>
 
 
-    <section class="sustainability">
-        <h2>Sustainable Farming Meets Technology</h2>
-        <p>Building a Greener Future</p>
-        <a href="#" class="btn-primary">Learn More</a>
-        <a href="#" class="btn-secondary">Contact Us</a>
+    <section class="sustainable-farming">
+        <div class="farming-content">
+            <h2>Sustainable Farming Meets Technology</h2>
+            <p>Building a Greener Future</p>
+            <div class="farming-buttons">
+                <a href="#" class="btn-primary">Learn More</a>
+                <a href="#" class="btn-secondary">Contact Us</a>
+            </div>
+        </div>
     </section>
+
 
     <section class="benefits">
         <h2>The Benefits of Choosing Our Expertise</h2>
