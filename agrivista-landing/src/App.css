@@ -154,6 +154,8 @@ html {
   font-size: 1.2rem;
   animation: fadeInUp 1.5s ease-in-out;
   color: red;
+  font-weight: bolder;
+  font-size: larger;
 }
 
 .hero-buttons button {
@@ -429,8 +431,8 @@ html {
 
 /* Green Navbar Styling */
 .navbar {
-  background-color: #2e8b57; /* Green color */
-  color: white;
+  background-color: #ffffff; /* white color */
+  color: black;
   padding: 20px 10%;
   display: flex;
   justify-content: space-between;
@@ -448,7 +450,7 @@ html {
 }
 
 .nav-links a {
-  color: white;
+  color: black;
   margin: 0 15px;
   text-decoration: none;
   transition: color 0.3s;
@@ -457,12 +459,16 @@ html {
 .nav-links a:hover {
   color: #ffd700; /* Gold color on hover */
 }
-
+.learn {
+  font-weight: bolder;
+  font-size: large;
+  color: white;
+}
 .auth-buttons button {
   margin-left: 10px;
   padding: 10px 20px;
-  border: 2px solid white;
-  background: transparent;
+  border: 2px solid green;
+  background-color: green;
   color: white;
   border-radius: 25px;
   cursor: pointer;
@@ -470,7 +476,7 @@ html {
 }
 
 .auth-buttons button:hover {
-  background-color: #ffd700;
+  background-color: white;
   color: #333;
 }
 
