@@ -1,0 +1,522 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Header Section */
+.hero-section {
+  background: url("https://media.istockphoto.com/id/2048823201/photo/a-new-green-tractor-stands-near-the-field-beautiful-sky.jpg?b=1&s=612x612&w=0&k=20&c=YU2Ncs4aBWqs7WrrKAWnmKuoCsOYsHOGPTMJC4GqCwM=")
+    no-repeat center center/cover;
+  color: white;
+  padding: 100px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 1.8rem;
+}
+
+.nav-links a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffd700;
+}
+
+.auth-buttons button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.auth-buttons button:hover {
+  background-color: #ffd700;
+  color: #333;
+}
+
+.signup {
+  background-color: #007bff;
+}
+
+.hero-content h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease-in-out;
+  color: white;
+}
+
+.hero-content p {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  animation: fadeInUp 1.5s ease-in-out;
+  color: red;
+}
+
+.hero-buttons button {
+  margin: 10px;
+  padding: 15px 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.hero-buttons .learn-more {
+  background-color: #ffd700;
+  color: #333;
+}
+
+.hero-buttons button:hover {
+  transform: translateY(-5px);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Passion Section */
+.passion-section {
+  padding: 50px 20px;
+  background-color: #f5f5f5;
+}
+
+.passion-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.passion-image {
+  max-width: 80%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  animation: fadeInUp 2s ease-in-out;
+}
+
+/* Services Section */
+.services-section {
+  padding: 50px 20px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service {
+  flex: 1;
+  margin: 10px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.service:hover {
+  transform: translateY(-10px);
+}
+
+.service-icon {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+/* Products Section */
+.products-section {
+  padding: 20px 1\--0px;
+  background-color: #f5f5f5;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product {
+  flex: 1;
+  margin: 10px;
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.product:hover {
+  transform: translateY(-10px);
+}
+
+/* Sustainability Section */
+.sustainability-section {
+  padding: 50px 20px;
+  background: url("https://media.istockphoto.com/id/1484751132/photo/aerial-view-of-tractor-as-dragging-a-sowing-machine-over-agricultural-field-farmland.jpg?b=1&s=612x612&w=0&k=20&c=l4hajc0fjXTK5nW75pFuprH1oCOIPdsditM-PbS8aLE=")
+    no-repeat center center/cover;
+  color: white;
+  text-align: center;
+}
+
+.sustainability-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  animation: fadeInUp 2s ease-in-out;
+}
+
+/* Benefits Section */
+.benefits-section {
+  padding: 50px 20px;
+}
+
+.benefits {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.benefit {
+  flex: 1;
+  margin: 10px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.benefit:hover {
+  transform: translateY(-10px);
+}
+
+.benefit-icon {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  padding: 50px 20px;
+  background-color: #f5f5f5;
+}
+
+.testimonial {
+  margin: 0 auto;
+  max-width: 600px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Blog Section */
+.blog-section {
+  padding: 50px 20px;
+}
+
+.blogs {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.blog {
+  flex: 1;
+  margin: 10px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.blog:hover {
+  transform: translateY(-10px);
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+.social-links a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #ffd700;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .passion-content {
+    flex-direction: column;
+  }
+
+  .services,
+  .products,
+  .benefits,
+  .blogs {
+    flex-direction: column;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .nav-links,
+  .auth-buttons {
+    flex-direction: column;
+  }
+
+  .auth-buttons button {
+    margin: 5px 0;
+  }
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Green Navbar Styling */
+.navbar {
+  background-color: #2e8b57; /* Green color */
+  color: white;
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffd700; /* Gold color on hover */
+}
+
+.auth-buttons button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.auth-buttons button:hover {
+  background-color: #ffd700;
+  color: #333;
+}
+
+.signup {
+  background-color: #ffd700;
+  color: #333;
+}
+
+/* Header Section */
+
+/* The rest of the CSS stays the same */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .nav-links,
+  .auth-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .auth-buttons button {
+    margin: 5px 0;
+  }
+
+  .hero-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .passion-content {
+    flex-direction: column;
+  }
+
+  .services,
+  .products,
+  .benefits,
+  .blogs {
+    flex-direction: column;
+  }
+}
+/* Products Section */
+.products-section {
+  padding: 50px 20px;
+  background-color: #f8f8f8;
+}
+
+.products-section h2 {
+  font-size: 2.5rem;
+  color: #2e8b57;
+  margin-bottom: 40px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns for large screens */
+  gap: 20px;
+}
+
+.product {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.product h3 {
+  font-size: 1.5rem;
+  color: #2e8b57;
+  margin-top: 15px;
+}
+
+.product p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .products-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+  }
+
+  .product h3 {
+    font-size: 1.25rem;
+  }
+
+  .product p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .products-grid {
+    grid-template-columns: 1fr; /* 1 column for mobile screens */
+  }
+
+  .products-section h2 {
+    font-size: 2rem;
+  }
+
+  .product h3 {
+    font-size: 1.2rem;
+  }
+
+  .product p {
+    font-size: 0.9rem;
+  }
+}
