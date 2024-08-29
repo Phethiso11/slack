@@ -119,11 +119,20 @@ function App() {
       <section className="testimonials-section">
         <h2>Testimonials</h2>
         <div className="testimonial">
-          <p>"Agrivista Farms has revolutionized our farming operations."</p>
-          <span>- Madeline Williamson</span>
+          <img
+            src="https://s3-alpha-sig.figma.com/img/eab9/67e2/46f834691e4bd80ec39ddeb67ea21df4?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mCSoECn5OXjRAqZcpHRMaTK7PqHttcq81bBxQwX6yqzQRqHo4BtMtFP-riRmUfSHpe5-Mc9bpr6GwgM79V6YSPnwk9kEKF7v-M6xDzO8vnlDXKKJ-YIhdORq7eCj0hWMXcp4lTPHnGi2Z~vys9eDQi18csvOUOvHlQkvRu7~Wp16KUgzdftQ~UOtOwCnvL~637yEQ2MJ0VK8BBoUQtd1vZN8mTZa2vrAr2I66QNpzlr2~FuU~e53qO66kwBBWpTKCju2OCQhmpdM0zDK68QNYbgzJUfM0ZhmhgL~vB-KJky4BfMAOeZ~HmPXFZFU8H-0krYd22QtcnEnCvFl4JiQ0w__" // Adjust the path based on where you store the image
+            alt="Madeline Williamson"
+            className="testimonial-image"
+          />
+          <div className="testimonial-content">
+            <h3>Madeline Williamson</h3>
+            <p>
+              "I am thrilled with the services and products offered by AgriVista Farms. Their
+              dedication to sustainable farming and innovation is truly commendable."
+            </p>
+          </div>
         </div>
       </section>
-
       <section className="blog-section">
         <h2>Our Blog</h2>
         <div className="blogs">
