@@ -157,10 +157,10 @@ function App() {
             <h2>AgriVista Farms</h2>
             <p>Li Europan lingues es membres del sam familie. Lor separate existentie.</p>
             <div className="footer-icons">
-              <a href="#i"><i className="icon-instagram"></i></a>
-              <a href="#i"><i className="icon-dribbble"></i></a>
-              <a href="#i"><i className="icon-facebook"></i></a>
-              <a href="#i"><i className="icon-behance"></i></a>
+              <a href="#i"><i className="icon-instagram"><img src='https://cdn-icons-png.freepik.com/256/15707/15707869.png?semt=ais_hybrid' alt=''></img></i></a>
+              <a href="#i"><i className="icon-dribbble"><img src='https://cdn-icons-png.flaticon.com/512/124/124037.png' alt=''></img></i></a>
+              <a href="#i"><i className="icon-facebook"><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtfbcYeYgf0wQJ-LSPm3CPbyB7T1p0f5bnaA&s' alt=''></img></i></a>
+              <a href="#i"><i className="icon-behance"><img src='https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/behance-icon.png' alt=''></img></i></a>
             </div>
           </div>
           <div className="footer-section">
