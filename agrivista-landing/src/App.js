@@ -151,13 +151,35 @@ function App() {
         </div>
       </section>
 
-      <footer>
-        <div className="footer-content">
-          <p>&copy; 2024 Agrivista Farms. All rights reserved.</p>
-          <div className="social-links">
-            <a href="facebook#">Facebook</a>
-            <a href="twitter#">Twitter</a>
-            <a href="linkedin#">LinkedIn</a>
+      <footer className="footer">
+        <div className="footer-container">
+          <div className="footer-section">
+            <h2>AgriVista Farms</h2>
+            <p>Li Europan lingues es membres del sam familie. Lor separate existentie.</p>
+            <div className="footer-icons">
+              <a href="#i"><i className="icon-instagram"></i></a>
+              <a href="#i"><i className="icon-dribbble"></i></a>
+              <a href="#i"><i className="icon-facebook"></i></a>
+              <a href="#i"><i className="icon-behance"></i></a>
+            </div>
+          </div>
+          <div className="footer-section">
+            <h3>Pages</h3>
+            <ul>
+              <li><a href="#i">Home</a></li>
+              <li><a href="#i">About</a></li>
+              <li><a href="#i">Product</a></li>
+              <li><a href="#i">Blog</a></li>
+            </ul>
+          </div>
+          <div className="footer-section">
+            <h3>About</h3>
+            <ul>
+              <li><a href="#t">Testimonials</a></li>
+              <li><a href="#o">Our Service</a></li>
+              <li><a href="#c">Contact Us</a></li>
+              <li><a href="#b">Benefit</a></li>
+            </ul>
           </div>
         </div>
       </footer>
